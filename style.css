@@ -1,0 +1,37 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+}
+.menu img{
+    margin-left: 5%;
+    width: 12%;
+}
+.menu nav{
+    flex-direction: flex-end;
+}
+.menu nav ul li{
+    padding: 25px 50px;
+    margin-right: 10px;
+    float: left;    
+}
+.menu nav ul li:hover{
+    background-color: #00008B;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.menu nav ul li a{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+.contenido{
+    margin-top:12%;
+}
