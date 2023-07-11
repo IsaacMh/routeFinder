@@ -10,19 +10,33 @@
 <body>
     <header>
         <div class="menu">
-            <img src="Imagenes/LogoPrincipal.png" alt="Rutas"> 
+            <img src="Imagenes/LogoNav.png" alt="Rutas" class="logoNav">
             <nav>   
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#nosotros">ACERCA DE</a></li>
+                <li><a href="#ruta">RUTAS</a></li>
+                <li><a href="InicioSesion.html">SALIR</a></li>
             </ul>
             </nav>   
         </div>
     </header>
-    <div class="contenido">
-        <p>Explora rutas cercanas a ti y descubre nuevos caminos con nuestra app de búsqueda de rutas.</p>        
+    <div class="contenido1">
+        <p>¿Deseas escanear un código QR <br> para ver las rutas <br> a su alrededor?</p>
+        <div class="qr">
+            <img src="Imagenes/QR.png" alt="Escanear Ruta">
+        </div>
+    </div>
+    <div class="ruta" id="ruta">
+        <p>BUSCAR NUEVA RUTA <br>¿A donde se dirige?</p>
+        <label>Buscar en el mapa</label>
+        <input type="text">
+        <a href="busqueda.html"><img src="Imagenes/find.png" alt="Busqueda de rutas"></a>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30706.74121685156!2d-70.04462641135886!3d-15.838578190946986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1suniversidad%20nacional%20del%20altiplano!5e0!3m2!1ses-419!2spe!4v1689038788319!5m2!1ses-419!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="nosotros" id="nosotros">
+        <h1>Acerca de nosotros</h1>
+        <p>Bienvenido/a a nuestra aplicación de búsqueda de rutas cercanas, la herramienta perfecta para optimizar tus desplazamientos diarios. Nuestra aplicación está diseñada para facilitar la búsqueda y navegación de las mejores rutas disponibles, brindándote opciones personalizadas y actualizadas en tiempo real.</p>
     </div>
     
 </body>

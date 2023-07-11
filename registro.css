@@ -1,0 +1,39 @@
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+  }
+  
+  button {
+    background-color: rgb(10, 10, 157);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }

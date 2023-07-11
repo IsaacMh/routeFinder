@@ -10,7 +10,7 @@ header{
     justify-content: space-between;
     background-color: blue;
 }
-.menu img{
+.logoNav{
     margin-left: 5%;
     width: 12%;
 }
@@ -31,7 +31,53 @@ header{
     font-size: 17px;
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
-.contenido{
+.contenido1{
     margin-top:12%;
+    text-align: center;
+}
+.contenido1 p,.ruta p{
+    font-size: 30px;
+}
+.qr img{
+    width: 30%;
+}
+#ruta{
+    scroll-margin-top: 110px;
+}
+.ruta{
+    
+    display: block;
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+.ruta p{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.ruta img{
+    width: 15px;
+}
+.ruta iframe{
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nosotros h1{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.nosotros{
+    text-align: center;
+    padding:5% 25%;
+    color: #666;
+    display: block;
+    font-size: 40px;
 }
