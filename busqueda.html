@@ -15,10 +15,8 @@
                 rel="stylesheet">
 
                 <style>
-                    /* Estilos personalizados */
-                    .navbar {
-                        display: flex;
-                        justify-content: center;
+                    .barra button{
+                        margin: 0;
                     }
                     .cerca{
                         margin:0 40%;
@@ -27,44 +25,31 @@
                         justify-content: space-between;
                         
                     }
-                    button{
+                    .cerca button{
                         width: 100px;
                         background:blue;
                         color:white;
                     }
-                    button:hover{
+                    .cerca button:hover{
                         background: rgb(24, 24, 152);
 
+                    }
+                    .barra button:hover{
+                        background: rgb(24, 24, 152);
                     }
                    
 
                 </style>
 </head>
 <body>
-    <div class="container show-top-margin separate-rows tall-rows">
-        <div class="row">
-            <div class="container">
-                <div class="fixed-top">
-                    <div class="col-md-2">
-                        <a href="index.html">
-                            <button class="btn btn-primary">Atrás</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                </div>
-                <nav class="navbar bg-body-tertiary">
-                    <div class="container-fluid d-flex justify-content-center">
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
-                </nav>
-            </div>
+    <div class="barra" >
+        <a href="index.html#ruta"><button style="border: none; border-radius:10px;" >ATRAS</button></a>
+        <div style="display:flex; align-items:center; justify-content:center;margin:20px;margin-bottom:20px;">
+            <label for="">INGRESAR TU UBICACIÓN :</label>
+            <input type="text">
+        </div>
         
-
+    </div>
 
         <div class="row show-grid">
             <div class="col-md-xs-1 text-center">
@@ -83,17 +68,21 @@
     <div class="cerca">
     <table>
         <tr>
-          <td><input type="radio"> radio 200m</td>
+          <td><input type="radio" name="opcion" value="200m"> radio 200m</td>
         </tr>
         <tr>
-          <td><input type="radio"> radio 500m</td>
+          <td><input type="radio" name="opcion" value="500m"> radio 500m</td>
         </tr>
         <tr>
-          <td><input type="radio"> radio 1000m</td>
+          <td><input type="radio" name="opcion" value="1000m"> radio 1000m</td>
         </tr>
     </table>
-    <button>IR</button>
+    <button id="rutas">IR</button>
     </div>
-    
+    <div id="contenido">
+    </div>
+    <div id="empresax">
+    </div>
+    <script src="busqueda.js"></script>
 </body>
 </html>
